@@ -143,6 +143,7 @@ function todotxt.open_task_pane()
       state.store:notify()
       state.store:save()
     end
+    state.split.render()
   end, map_options)
 
   -- edit task
